@@ -1,0 +1,164 @@
+/* #title{
+    background-color: #ff4c68;
+    color:#fff
+}  */
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align: left;
+}  
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat"; 
+} 
+.big-heading{
+    padding-top: 4.5rem;
+    font-size:3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+} 
+.container-fluid{ 
+    padding:7% 15% ;
+}
+body{
+    font-family: "Ubuntu";
+    text-align: center;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size:2.5rem ;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+.download{
+    margin: 5% 3% 5% 0;
+}
+.love{
+    color: #ef8172;
+    padding:0 10%;
+    margin-bottom: 10%;
+
+}
+.love:hover {
+     color:#ff4c68; 
+  
+}
+.dog{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+.titl-image{
+    position: relative;
+}
+#features{
+    
+    /* background-color: #fff; */
+    position: relative;
+    z-index:  1;
+}
+.feature-div{
+   
+   padding: 5%;
+}
+.featpara{
+    color: #8f8f8f;
+}
+.feature-text{
+    font-size: 1.5rem;
+    padding: 4%;
+}
+#testimonials{
+    
+    background-color: #ef8172;
+    /* color: #fff; */
+}
+.testimonial-image{
+    width:10%;
+    border-radius: 100%;
+    margin: 10%;
+}
+.testimonials-text{
+    font-size: 3.2rem;
+    line-height: 1.5; 
+}
+#press{
+    background-color: #ef8172;
+     
+    padding-bottom: 3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    
+}
+.pricing-column {
+    padding:3% 2%;
+}
+.pricing-text{
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+@media (max-width:900px) {
+    .dog{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    /* background-color: #ff4c68; */
+    text-align: center;
+}
+.dogslife{
+    font-family: Montserrat ;
+    font-size: 3.0rem;
+    line-height: 1.5;
+    color: #fff;
+    /* padding:  0% 25% 2%; */
+}
+.btn1{
+    margin-right: 3%;
+}
+.btn2{
+    background-color: #fff;
+    color: black;
+    
+}
+/* #footer{
+    
+    
+} */
+.a{
+     padding: 1%;
+}
+.buttons{
+    padding: 0% 5%;
+}
+.footfonts{
+    padding-right: 10px;
+}
+.foot-logo{
+    padding-bottom: 15px;
+}
+.coloured{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white{
+    background-color: #fff;
+    color: black;
+}
